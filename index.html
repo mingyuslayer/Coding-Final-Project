@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Hygiene Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sleep Hygiene Guide</h1>
+        <p>Learn how to improve your sleep quality with these tips!</p>
+    </header>
+
+    <!-- Sleep Hygiene Tips Section -->
+    <section id="tips">
+        <h2>Tips for Better Sleep Hygiene</h2>
+        <ul>
+            <li><strong>Stick to a regular sleep schedule:</strong> Go to bed and wake up at the same time every day.</li>
+            <li><strong>Avoid screens before bed:</strong> Turn off your phone, tablet, or computer at least 30 minutes before sleep.</li>
+            <li><strong>Limit caffeine and alcohol:</strong> Avoid consuming these in the hours leading up to bedtime.</li>
+            <li><strong>Create a restful environment:</strong> Keep your bedroom dark, quiet, and at a comfortable temperature.</li>
+            <li><strong>Relax before bed:</strong> Consider a bedtime routine like reading, meditation, or deep breathing exercises.</li>
+        </ul>
+    </section>
+
+    <!-- Sleep Tracker Section -->
+    <section id="tracker">
+        <h2>Track Your Sleep</h2>
+        <p>Enter how many hours you slept last night, and we'll give you some advice!</p>
+        
+        <label for="sleep-hours">Hours of Sleep:</label>
+        <input type="number" id="sleep-hours" placeholder="Enter hours" min="0" max="24">
+        <button onclick="submitSleep()">Submit</button>
+        
+        <div id="recommendation"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sleep Hygiene Guide. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
